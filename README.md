@@ -3,8 +3,7 @@ Number Prettifer
 
 Approach
 -------------
-An object oriented approach was taken.  A class to handle the conversion of a numeric type to a "pretty" type.  
-To test the validity of this conversion, some simple checks are done within the project's main method.
+An object oriented approach was taken.  A class was created to handle the conversion of a numeric type to a "pretty" type. To test the validity of this conversion, some simple checks are done within the project's main method.
 
 
 Assumptions

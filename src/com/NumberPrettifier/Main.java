@@ -36,6 +36,9 @@ public class Main {
         if(! new PrettyNumber(1999999.999999).toPretty().equals("1.9M")){
             throw new Exception("Failed");
         }
+        if(! new PrettyNumber(Float.MIN_VALUE).toPretty().equals(Float.MIN_VALUE + "")){
+            throw new Exception("Failed");
+        }
         System.out.println("All tests passed!");
     }
 }
