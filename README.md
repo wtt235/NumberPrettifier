@@ -10,6 +10,7 @@ To test the validity of this conversion, some simple checks are done within the 
 Assumptions
 -------------
 - There is no rounding.  Decimal values are ignored.
+- Any (positive or negative) number 999999 or less will return unmodified. 
 
 
 Design

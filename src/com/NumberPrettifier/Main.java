@@ -24,6 +24,9 @@ public class Main {
         if(! new PrettyNumber(0).toPretty().equals("0")){
             throw new Exception("Failed");
         }
+        if(! new PrettyNumber(999999).toPretty().equals("999999")){
+            throw new Exception("Failed");
+        }
         if(! new PrettyNumber(-5).toPretty().equals("-5")){
             throw new Exception("Failed");
         }
