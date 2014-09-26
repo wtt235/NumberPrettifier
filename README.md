@@ -16,7 +16,7 @@ Design
 -------------
 The main class of concern is PrettyNumber, with a constructor that will accept
 any argument of type *Number*, which is the parent of a variety of numeric types like *Double, Float, Integer, Long, Short*.
-The work of prettifing a number is handled by the method, *toPretty()*.
+The work of prettifing a number is handled by the method, *toString()*, which overrides Object's *toString()*.
 The most important mathematical concept at work is the [common logarithm](https://en.wikipedia.org/wiki/Common_logarithm).
 This allows us to calculate the number of digits in a number, which can be used to extract specific digits. We can map 
 the digits to a place value name by dividing the digits by 3.

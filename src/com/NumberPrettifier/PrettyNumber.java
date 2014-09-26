@@ -9,7 +9,7 @@ public class PrettyNumber{
         this.number = numb;
     }
 
-    public String toPretty(){
+    @Override public String toString(){
         if(this.number.intValue() <= 0){
             return this.number.toString();
         }
