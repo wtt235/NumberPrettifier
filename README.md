@@ -27,3 +27,4 @@ Example Usage
 PrettyNumber x = new PrettyNumber(2500000.34);
 String xPretty = x.toPretty(); // xPretty now holds "2.5M"
 ```
+More examples can be found in the project's main method.
