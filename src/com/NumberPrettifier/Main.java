@@ -12,6 +12,9 @@ public class Main {
         if(! new PrettyNumber(532).toPretty().equals("532")){
             throw new Exception("Failed");
         }
+        if(! new PrettyNumber(532000000).toPretty().equals("532M")){
+            throw new Exception("Failed");
+        }
         if(! new PrettyNumber(1123456789).toPretty().equals("1.1B")){
             throw new Exception("Failed");
         }
